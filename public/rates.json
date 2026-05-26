@@ -1,0 +1,19 @@
+{
+  "result": "success",
+  "base_code": "XPF",
+  "time_last_update_utc": "Mon, 26 May 2025 00:00:01 +0000",
+  "conversion_rates": {
+    "AUD": 0.013576,
+    "NZD": 0.014833,
+    "CAD": 0.012151,
+    "USD": 0.009134,
+    "FJD": 0.020866,
+    "SGD": 0.012319,
+    "THB": 0.32263,
+    "CHF": 0.007877,
+    "EUR": 0.008380,
+    "GBP": 0.007207,
+    "JPY": 1.35756,
+    "VUV": 1.08521
+  }
+}
