@@ -67,9 +67,9 @@
 </template>
 
 <script>
-// Pour la production avec une clé API, remplacez cette URL par :
-// `https://v6.exchangerate-api.com/v6/${process.env.VUE_APP_EXCHANGE_API_KEY}/latest/XPF`
-const API_URL = '/rates.json'
+const API_URL = process.env.VUE_APP_EXCHANGE_API_KEY
+  ? `https://v6.exchangerate-api.com/v6/${process.env.VUE_APP_EXCHANGE_API_KEY}/latest/XPF`
+  : '/rates.json'
 
 const CURRENCIES = [
   { code: 'AUD', name: 'Dollar australien',    country: 'au' },
