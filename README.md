@@ -2,6 +2,7 @@
 
 Application Vue.js affichant en temps réel les taux de change basés sur le Franc Pacifique (XPF), avec mise à jour automatique toutes les heures.
 
+Accessible via ce site : https://exchangeratecurrencymoney.netlify.app
 ---
 
 ## Aperçu
