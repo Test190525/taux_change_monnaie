@@ -60,7 +60,7 @@
     </main>
 
     <footer class="board-footer">
-      <p>Données : ExchangeRate-API &bull; Base : Franc Pacifique (XPF)</p>
+      <p>Données : ExchangeRate-API &bull; Taux de changes avec Vue.js</p>
     </footer>
 
   </div>
