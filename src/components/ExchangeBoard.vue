@@ -20,7 +20,6 @@
         <span class="input-currency">XPF</span>
       </div>
       <p class="update-info" v-if="lastUpdate">
-        <span class="status-dot"></span>
         Mis à jour : {{ formatDate(lastUpdate) }}
       </p>
       <p class="update-info error-msg" v-if="error">
@@ -35,10 +34,7 @@
         v-for="(currency, index) in convertedRates"
         :key="currency.code"
         class="currency-card"
-        :style="{
-          '--fade-delay': `${index * 0.08}s`,
-          '--grad-delay': `${index * 0.65}s`
-        }"
+        :style="{ '--fade-delay': `${index * 0.08}s` }"
       >
         <div class="card-flag">
           <img
